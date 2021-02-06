@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(252, 224, 228);
+}
+header{
+    background-color: black;
+    color: gray;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+header ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    flex-direction: row-reverse;
+}
+header ul li{
+    margin: 5px 12px;
+}
+#home:hover{
+    font-weight: bold;
+}
+#navbar{
+    display: flex;
+    margin: 10px 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    cursor: pointer;
+}
+#navbar ul{
+    display: flex;
+    margin-left: 570px;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+}
+#logo{
+    margin-left: 250px;
+    margin-right: -150px;
+    font-size: 2.3rem;
+}
+#logo:hover{
+    color: darkviolet;
+}
+.bars{
+    padding: 12px 12px;
+    margin: 2px 8px;
+    font-size: 1.2rem;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    background: center/cover no-repeat url(bg.jpg);
+    height: 380px;
+    align-items: center;
+    justify-content: center;
+    /* padding-bottom: 40px; */
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#container h1{
+    font-size: 4rem;
+    margin-right: 370px;
+    padding-bottom: 20px;
+}
+#container p{
+    font-size: 1.5rem;
+    margin-right: 200px;
+}
+button{
+    margin-right: 300px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color: rgb(148, 0, 79);
+    border: 2px solid maroon;
+}
+#btn2:hover{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+#btn1{
+    margin-top: 23px;
+    padding: 10px 8px;
+    background-color: plum;
+    border: 2px solid purple;
+    color: aliceblue;
+}
+#btn2{
+    margin-top: 5px;
+    padding: 10px 8px;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+#conclusion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items img{
+    width: 180px;
+    padding: 5px 10px;
+    margin: 20px 60px;
+}
+
